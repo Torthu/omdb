@@ -256,6 +256,8 @@ module.exports.get = function (show, options, done) {
             actors: formatList(movie.Actors),
             plot: movie.Plot,
 
+            totalSeasons: movie.totalSeasons,
+
             // A hotlink to a JPG of the movie poster on IMDB.
             poster: movie.Poster,
 
